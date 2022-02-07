@@ -1,0 +1,15 @@
+
+body{
+    background-color:papayawhip;
+}
+    h1{
+       border-style: dotted ;
+       border-color: brown;
+        color: blue;
+        text-align-last: center;
+        
+    }
+    p{
+        
+        color:red;
+    }
