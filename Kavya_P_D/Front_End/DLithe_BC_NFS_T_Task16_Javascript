@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="demo"></p>
+
+<p id="demo1"></p>
+
+<p id="demo2"></p>
+
+<p id="demo3"></p>
+
+<p id="demo4"></p>
+<button onclick="document.getElementById('demo').innerHTML=Date()">Time</button><br>
+<p id="demo"></p><br>
+<h2 onclick="this.innerHTML='WELCOME'">hello</h2><br>
+Enter your name:<input type="text" id="fname" onchange="uppercase()"><br><br>
+
+<h2 id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">mouse over me</h2><br>
+<button type="button" onclick="myFunction()">change background color</button><br>
+<button type="button" onclick="getcube(4)">cube</button><br>
+
+
+<script>let x, y, z;  
+    x = 8;        
+    y = 6;        
+    z = x + y;    
+    const PI = 3.14159265359;
+    
+    var carName = "BMW";
+    
+    let  a = 10;  
+    
+    
+    
+    {  
+      
+      let a = 2;
+      let b=5;  
+      document.write("Local Scope"+b+"<br>");
+    
+    }
+    
+    {
+       let b=3;// Redeclaring a variable with let, in another block, IS allowed
+    }
+    
+    document.getElementById("demo").innerHTML =
+    "The value of z is " + z + ".";  //variable
+    
+    document.getElementById("demo1").innerHTML = 99.8;//literal
+    
+    document.getElementById("demo2").innerHTML = (6 + 8) * 10; //operators
+    
+    
+    document.getElementById("demo3").innerHTML = carName;
+    
+    document.getElementById("demo4").innerHTML = "Global Scope"+a;
+    
+    document.write(PI);
+    document.write(b);
+  
+    function uppercase(){
+        const x= document.getElementById("fname");
+        x.value=x.value.toUpperCase();
+    }
+   
+    function myFunction(x){
+        x.style.background='blue';
+    }
+    function mouseOver(){
+       document.getElementById("demo1").style.color="blue";
+     }
+    function mouseOut(){
+      document.getElementById("demo1").style.color="red";
+     }
+    
+     function myFunction(){
+      document.body.style.backgroundColor='pink';
+
+     }
+   
+   function getcube(number)
+{  
+alert(number*number*number);  
+}  
+
+
+ 
+           
+
+
+</script>
+
+
+
+</body>
+</html>

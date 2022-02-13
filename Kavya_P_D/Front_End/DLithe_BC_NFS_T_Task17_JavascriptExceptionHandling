@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Splice()</h1>
+       <script>
+            const weeks = ['Sunday', 'Tuesday', 'Thurday', ];
+            //splice(start, deleteCount, item1, item2, itemN)
+weeks.splice(1, 0, 'Monday');
+// inserts at index 1
+document.write(weeks);
+document.writeln("<br/>"); 
+weeks.splice(3, 1, 'Wednesay');
+// replaces 1 element at index 4
+document.write(weeks);
+document.writeln("<br/>"); 
+
+var a = ['one', 'two', 'three', 'four', 'five']
+document.write(a);
+document.writeln("<br/>"); 
+var b = a.splice(1, 3);
+document.write(b);
+document.writeln("<br/>"); 
+document.write(a);
+document.writeln("<br/>"); 
+a.splice(2, 0,'four');
+document.write(a);
+document.writeln("<br/>"); 
+</script>
+<hr>
+<h1>concat()</h1>
+<script>
+const array1 = ['one ', 'two', 'three'];
+const array2 = ['a', 'b', 'c'];
+const array3 = array1.concat(array2);
+document.write(array3);
+ </script>
+<hr>
+ <script>
+     const word=['hello'];
+     const word2=['everyone'];
+     const word3=word.concat(word2);
+     document.write(word3);
+ </script>
+ <hr>
+ <h1>entries method</h1>
+ <script>
+    var a = ['hi', 'hello', 'hey','hiii','heeee'];
+var iterator = a.entries();
+
+for (let hi  of iterator)
+{
+document.write(hi+"<br>");
+}
+</script>
+<hr>
+<h1>reverse()</h1>
+<script>
+    var a = [101, 201, 301];
+
+document.write(a);
+
+a.reverse();
+document.writeln("<br/>")    ; 
+
+document.write(a); 
+</script>
+<hr>
+<h1> indexof() and lastindexof()</h1>
+<script>
+    var colors = ["orange", "red", "yellow", "purple","red","pink"];
+    var a=colors.indexOf("red") ;  // Returns 2
+    document.write(a);
+    document.writeln("<br/>"); 
+    a=colors.lastIndexOf("red"); 
+    document.write(a);
+        </script>
+<hr>
+<h1>slice()</h1>
+<script>
+     var colors = ["orange", "red", "yellow", "purple","red","pink"];
+    
+var a = colors.slice(-6, -3);
+document.write(a);
+document.writeln("<br/>"); 
+var b = colors.slice(1, 4);
+document.write(b);
+</script>        
+ <hr>
+<h1>sort()</h1>
+<script>
+    var arr = [28, 52, 86, 14, 46]
+document.write(arr.sort());
+document.write(arr);
+</script>
+<h1>filter()</h1>
+<script>
+    var words = ['nisarga', 'kavita', 'Apoorva', 'kratika', 'swapna', 'anjana'];
+    
+    var result = words.filter(word => word.length == 6);
+    
+    document.write(result);
+    </script>
+<hr>
+<hr>
+<h1>string()</h1>
+<script>  
+    var str="Beautiful";  
+    document.write(str.charAt(7));  
+    </script> 
+    <hr>
+    <script>  
+        var s1="welcome ";  
+        var s2="to string methods";  
+        var s3=s1.concat(s2);  
+        document.write(s3);  
+        </script> 
+        <hr>
+        <script>  
+            var s1="knowledge";  
+            var e=s1.indexOf("knowledge");  
+            document.write(e);  
+            </script>  
+            <hr>
+            <script>  
+                var s1="string methods";  
+                var e=s1.lastIndexOf("knowledge");  
+                document.write(e);  
+                </script>  
+                <hr>
+                <script>  
+                    var s1="welcome to javascript string methods";  
+                    var s2=s1.toLowerCase();  
+                    document.write(s2);  
+                    </script>  
+                    <hr>
+                <script>  
+                        var s1="welcome to javascript string methods";  
+                        var s2=s1.toUpperCase();  
+                        document.write(s2);  
+                </script>  
+                        <hr>
+                 <script>  
+                            var s1="abcdefghijklmnopqrstuvwxyz";  
+                            var s2=s1.slice(5,24);  
+                            document.write(s2);  
+                 </script>  
+                            <hr>
+                 <script>  
+                
+                            var s1="     javascript trim    ";  
+                            var s2=s1.trim();  
+                            document.write(s2);  
+                 </script>  
+                                <hr>
+                <script>  
+                            var str="nisarga kavita Apoorva kratika swapna anjana";
+                            document.write(str.split(" ")); //splits the given string.  
+                 </script>  
+                 <hr>
+                 <h1>MATH Functions</h1>
+                 <p id="demo"></p>
+                 <script>
+    
+                    //"use strict"; 
+                    a=10;
+                 document.getElementById("demo").innerHTML = 
+                 "<p><b>Math.E:</b> " + Math.E + "</p>" +
+                 "<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+                 "<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+                 "<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+                 "<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+                 "<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+                 "<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+                 "<p><b>Math.Log10E:</b> " + Math.LOG10E + "</p>";
+                 </script>
+                 <hr>
+                 <script>
+                 document.write(Math.round(8.6)+"<br>");
+                 document.write(Math.round(-8.6)+"<br>");
+                 document.write(Math.ceil(8.6)+"<br>");
+                 document.write(Math.ceil(7.2)+"<br>");
+                 document.write(Math.floor(5.7)+"<br>");
+                 document.write(Math.trunc(4.7)+"<br>");
+                 document.write(Math.sign(0)+"<br>");
+                 document.write(Math.sign(-3.7)+"<br>");
+                 document.write(Math.pow(4,2)+"<br>");
+                 document.write(Math.sqrt(81)+"<br>");
+                 document.write(Math.abs(-1)+"<br>");
+                 document.write(Math.sin(1)+"<br>");
+                 document.write(Math.cos(1)+"<br>");
+                 document.write(Math.tan(1)+"<br>");
+                 document.write(Math.min(0, 150, 30, 20, -8, -9)+"<br>");
+                 document.write(Math.max(0, 800, 130, 820, -8, -700)+"<br>");
+                 document.write(Math.random()+"<br>");   
+                 document.write(Math.log(1)+"<br>");  
+                 document.write(Math.floor(Math.random() * 100)+"<br>");
+                </script>
+                     <hr>
+
+                <h1>Date Functions</h1>
+                <p id="demo1">year</p>
+                <p id="demo2"></p>
+                <p id="demo3"></p>
+                <p id="demo4"></p>
+                <p id="demo5"></p>
+                <p id="demo6"></p>
+                <p id="demo7"></p>
+                <script>
+                    const d=new Date();
+                    document.getElementById("demo1").innerHTML=d.getFullYear();
+                    document.getElementById("demo2").innerHTML=d.getMonth()+1;
+                    document.getElementById("demo3").innerHTML=d.getDate();
+                    document.getElementById("demo4").innerHTML=d.getHours();
+                    document.getElementById("demo5").innerHTML=d.getMinutes();
+                    document.getElementById("demo6").innerHTML=d.getSeconds();
+                    document.getElementById("demo7").innerHTML=d.getDay();
+                </script>
+                <script>
+                    var d = new Date();
+                    document.write(d);
+                    </script>
+                    <script>
+                        //JavaScript Generate Date Strings
+                        var d = new Date();
+                        document.write(d.toDateString() + "<br>"); // Display an abbreviated date string
+                        document.write(d.toLocaleDateString() + "<br>"); // Display a localized date string
+                        document.write(d.toISOString() + "<br>"); // Display the ISO standardized date string(International Organization for Standardization)
+                        document.write(d.toUTCString() + "<br>"); // Display a date string converted to UTC time(Universal Time Coordinated)
+                        document.write(d.toString()); // Display the full date string with local time zone
+                        </script>
+                        <hr>
+                <hr>
+                <p id="errorMessage"></p>
+               <p id="message"></p>
+	
+	<script>
+		try
+		{
+            var a=10;
+            
+		}
+		catch(ex)
+		{
+			document.getElementById("errorMessage").innerHTML = ex;
+		}
+        finally
+        {
+         document.getElementById("message").innerHTML = "finally block executed"+ a;
+        }
+        function calculate_age(dob){
+            var diff_ms = Date.now - dob.getTime();
+            var age_dt=new Date(diff_ms);
+            return Math.abs(age_dt.getUTCFullYear()-1999);
+            document.write(calcuate_age(new Date(2022,05,23)));
+            document.write(calcuate_age(new Date(2022,03,29)));
+        }
+    </script>
+    </body>
+</html>
+                     
+                    

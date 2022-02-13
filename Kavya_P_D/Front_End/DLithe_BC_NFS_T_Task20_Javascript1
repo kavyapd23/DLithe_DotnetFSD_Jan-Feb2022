@@ -1,0 +1,74 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>ENCAPSULATION</h1>
+           
+ <script>
+class Employee  
+  {  
+    constructor()  
+    {  
+       var name;  
+       var id;  
+       var salary;
+       var location;
+       var designation;
+    }  //get method is used to read the message
+        getName()  
+        {  
+          return this.name;  
+        }  
+        //set method is used to set the data
+      setName(name)  
+      {  
+        this.name=name;  
+      }  
+        
+      getId()  
+      {  
+        return this.id;  
+      }  
+    setId(id)  
+    {  
+      this.id=id;  
+    }  
+    getSalary()  
+      {  
+        return this.salary;  
+      }  
+    setSalary(salary)  
+    {  
+      this.salary=salary;  
+    }  
+     getLocation()  
+      {  
+        return this.location;  
+      }  
+    setLocation(location)  
+    {  
+      this.location=location;  
+    }  
+    getDesignation()  
+      {  
+        return this.designation;  
+      }  
+    setDesignation(designation)  
+    {  
+      this.designation=designation;  
+    }  
+  
+    }  
+    var emp=new Employee();  
+    //writing the values through accessing the object
+     emp.setName("John");  
+     emp.setId(8); 
+     emp.setSalary(50000);
+     emp.setLocation("Hubli");
+     emp.setDesignation("Software Engineer");
+     document.writeln(emp.getName()+" "+emp.getId()+" "+emp.getSalary()+" "+emp.getLocation()+" "+emp.getDesignation());  
+</script>  
+
+
+    </body>
+</html>

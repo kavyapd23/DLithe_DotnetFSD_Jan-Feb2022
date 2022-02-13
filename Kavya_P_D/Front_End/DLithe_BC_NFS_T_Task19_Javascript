@@ -1,0 +1,24 @@
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+    //create a function
+function Employee(fname,lame,designation,mobile){
+        this.fname = 'John';
+        this.lname = 'k';
+		this.designation = 'software engineer';
+        this.mobile = '9986964656';
+	
+}
+//by using prototype method adding the proprty location to the function
+    Employee.prototype.location="hubli";
+    Employee.prototype.name=function(){
+        return this.fname+ " "+ this.lname+" "+ this.designation +" "+ this.mobile+" "};
+     //create an object and display the results 
+        const k=new Employee('kavya','p','designer','9876543234')
+    document.getElementById("demo").innerHTML =
+    "The Employee detail is-" + k.name()+k.location;
+</script>
+</body>
+</html>

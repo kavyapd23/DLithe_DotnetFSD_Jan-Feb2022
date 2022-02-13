@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> Inheritance</h2>
+<script>
+ 
+    class Bike
+{
+constructor()
+{
+this.company="BMW";
+}
+}
+class Vehicle extends Bike 
+{
+constructor(name,price)
+{
+super();
+this.name=name;
+this.price=price;
+} 
+}
+var v = new Vehicle("Toyoto","800000");
+document.writeln(v.company+" "+v.name+" "+v.price);
+    </script>
+    <hr>
+    <script>
+ 
+        class student                                               
+    {
+    constructor()
+    {
+    this.school="JSS";
+    }
+    }
+    class school1 extends student 
+{
+  constructor(name,standard)
+   {
+     
+   super();
+    this.name=name;
+    this.standard=standard;
+   
+   
+  } 
+}
+    var v = new school1("Romita","10th");
+    document.writeln(v.school+" "+v.name+" "+v.standard+" ");
+        </script>
+   <script>
+   class Employee
+   {
+   constructor(emp_id,emp_name,emp_salary)
+   {
+   this.emp_id=emp_id;
+   this.emp_name=emp_name;
+   this.salary=salary;
+   
+   }
+   getdetails()
+   {
+   return "the employee id is "+this.emp_id;
+   }
+   }
+   class emp1 extends Employee
+   {
+   constructor(emp_id,emp_name,salary)
+   {
+   super(emp_id,emp_name);
+   this.designation=designation;
+   this.location=location;
+   
+   }
+   
+   }
+   var a= new atm(1,"Kavya","software engineer","banglore");
+   document.write(a.emp_id+"<br>");
+   document.write(a.emp_name+"<br>");
+   document.write(a.getdetails()+"<br>");
+   document.write(a.designation+"<br>");
+   document.write(a.location+"<br>");
+   </script>
+    <hr>
+<h1>polymorphism</h1>
+<script>  
+    class A  
+      {  
+         display()  
+        {  
+          document.writeln("A is invoked");  
+        }  
+      }  
+    class B extends A  
+      {  
+        display()  
+        {  
+          document.writeln("B is invoked");  
+        }  
+      }  
+      
+    var a=[new A(), new B()]  
+    a.forEach(function(msg)  
+    {  
+    msg.display();  
+    });  
+    </script>
+    
+
+    
+</body>
+</html>
+

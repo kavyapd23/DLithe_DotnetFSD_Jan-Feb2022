@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <script>
+    //Creating a constructor function
+     function Fruit()
+    {
+      //throw an error because we dont want to creating the instance of the employee
+        this.FruitName="FruitName";
+        throw new Error("You cannot create an instance of Abstract Class");
+    }
+    //ascociate function with object 
+    Fruit.prototype.display=function()
+    {
+        return "Fruit is: "+this.FruitName;
+    }
+   //Creating a constructor function//create another function and pass a parameter
+    function apple(FruitName)
+    {
+        this.FruitName=FruitName;
+    }
+    //associate using prototype property object.create method allows us to construct a object 
+    //Creating object without using the function constructor
+    apple.prototype=Object.create(Fruit.prototype);
+
+    var apple=new apple("apple");
+    document.writeln(apple.display());
+      </script>    
+</body>
+</html>
+

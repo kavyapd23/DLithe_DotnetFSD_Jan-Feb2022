@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>multiple-choice quiz form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body bgcolor=#ffffff>
+
+<h3> Quiz I</h3>
+
+<form method="post" action="mailto:xyz@mail.utexas.edu?subject=Vocabulary Quiz 1" enctype="text/plain">
+
+<p><b>1. The word which means "house" is:<BR></b>
+<button class="btn btn-primary"><input type="radio" name="1.The word which means house is" value="maison">maison<BR></button>
+    <button class="btn btn-primary"><input type="radio" name="1.The word which means house is" value="quatre">quatre<BR></button>
+        <button class="btn btn-primary"><input type="radio" name="1.The word which means house is" value="soleil">soleil<BR></button>
+            <button class="btn btn-primary"><input type="radio" name="1.The word which means house is" value="poisson">poisson<BR></button>
+</p>
+
+<P><b>2. The word which means "fish" is:<BR></b>
+    <button class="btn btn-primary"><input type="radio" name="2. The word which means fish is" value="maison">maison<BR></button>
+        <button class="btn btn-primary"><input type="radio" name="2. The word which means fish is" value="valise">valise<BR></button>
+            <button class="btn btn-primary"><input type="radio" name="2. The word which means fish is" value="soleil">soleil<BR></button>
+                <button class="btn btn-primary"><input type="radio" name="2. The word which means fish is" value="poisson">poisson<BR></button>
+</p>
+
+<P><b>3. The word which means "suitcase" is:<BR></b>
+    <button class="btn btn-primary"><input type="radio" name="3. The word which means suitcase is" value="renard">renard<BR></button>
+        <button class="btn btn-primary"><input type="radio" name="3. The word which means suitcase is" value="valise">valise<BR></button>
+            <button class="btn btn-primary"><input type="radio" name="3. The word which means suitcase is" value="soleil">soleil<BR></button>
+                <button class="btn btn-primary"><input type="radio" name="3. The word which means suitcase is" value="poisson">poisson<BR></button>
+</p>
+
+<br>
+<br>
+<br>
+<br>
+<input type="submit" value="Send Form">
+<input type="reset" value="Clear Form">
+</form>
+</body>
+</html>
