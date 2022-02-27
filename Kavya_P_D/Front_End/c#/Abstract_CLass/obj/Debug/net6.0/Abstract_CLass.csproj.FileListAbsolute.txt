@@ -1,0 +1,15 @@
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\bin\Debug\net6.0\Abstract_CLass.exe
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\bin\Debug\net6.0\Abstract_CLass.deps.json
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\bin\Debug\net6.0\Abstract_CLass.runtimeconfig.json
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\bin\Debug\net6.0\Abstract_CLass.dll
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\bin\Debug\net6.0\Abstract_CLass.pdb
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\Abstract_CLass.csproj.AssemblyReference.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\Abstract_CLass.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\Abstract_CLass.AssemblyInfoInputs.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\Abstract_CLass.AssemblyInfo.cs
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\Abstract_CLass.csproj.CoreCompileInputs.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\Abstract_CLass.dll
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\refint\Abstract_CLass.dll
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\Abstract_CLass.pdb
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\Abstract_CLass.genruntimeconfig.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Abstract_CLass\obj\Debug\net6.0\ref\Abstract_CLass.dll
