@@ -1,0 +1,15 @@
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\bin\Debug\net6.0\Task4.exe
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\bin\Debug\net6.0\Task4.deps.json
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\bin\Debug\net6.0\Task4.runtimeconfig.json
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\bin\Debug\net6.0\Task4.dll
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\bin\Debug\net6.0\Task4.pdb
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\Task4.csproj.AssemblyReference.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\Task4.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\Task4.AssemblyInfoInputs.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\Task4.AssemblyInfo.cs
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\Task4.csproj.CoreCompileInputs.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\Task4.dll
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\refint\Task4.dll
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\Task4.pdb
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\Task4.genruntimeconfig.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task4\obj\Debug\net6.0\ref\Task4.dll
