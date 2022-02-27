@@ -1,0 +1,5 @@
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task04\obj\Debug\net6.0\Task04.csproj.AssemblyReference.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task04\obj\Debug\net6.0\Task04.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task04\obj\Debug\net6.0\Task04.AssemblyInfoInputs.cache
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task04\obj\Debug\net6.0\Task04.AssemblyInfo.cs
+E:\Dlithe_Dotnet_JanFeb2022\Kavya_P_D\FrontEnd\Csharp\Task04\obj\Debug\net6.0\Task04.csproj.CoreCompileInputs.cache
